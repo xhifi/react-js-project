@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ul>
+      <h1 className="text-primary">This is our First React App</h1>
+      <p className="text-secondary">
+        This application has all the relevant documentation accompanies with it in the github rep as well. You can at any given time, either go through the written documentation or
+        you can ask Awais or Namrah for the video relevant to this project so you can watch it again
+      </p>
+      <a className="btn btn-danger btn-lg" href="/">
+        This is a Danger Button
+      </a>
+    </ul>
   );
 }
 
