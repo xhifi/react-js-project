@@ -1,0 +1,9 @@
+.navigation-list {
+  li {
+    &:nth-last-child(1) {
+      a {
+        @extend .me-0;
+      }
+    }
+  }
+}
