@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "title": "Home",
+      "link": "/"
+    },
+    {
+      "title": "About Us",
+      "link": "/about"
+    },
+    {
+      "title": "Our Blog",
+      "link": "/blog"
+    },
+    {
+      "title": "Merch Store",
+      "link": "/shop"
+    },
+    {
+      "title": "Contact us",
+      "link": "/contact"
+    }
+  ]
+}

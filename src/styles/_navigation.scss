@@ -1,4 +1,5 @@
 .navigation-list {
+  @extend .d-flex, .list-unstyled, .mb-0;
   li {
     &:nth-last-child(1) {
       a {
