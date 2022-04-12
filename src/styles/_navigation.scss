@@ -1,10 +1,9 @@
-.navigation-list {
-  @extend .d-flex, .list-unstyled, .mb-0;
+.navigation {
+  @extend .bg-info;
   li {
-    &:nth-last-child(1) {
-      a {
-        @extend .me-0;
-      }
+    @extend .d-inline, .me-2;
+    a {
+      @extend .text-decoration-none, .h4;
     }
   }
 }
