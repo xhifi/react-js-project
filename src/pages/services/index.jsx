@@ -1,8 +1,10 @@
 import MainLayout from "../../components/layouts/Main";
+import { Hero } from "../../components/Components";
+
 const index = () => {
   return (
     <MainLayout>
-      <div>This is the services page</div>
+      <Hero heading="Our Services are Impeccable" />
     </MainLayout>
   );
 };

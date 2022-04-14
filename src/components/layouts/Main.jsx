@@ -1,5 +1,5 @@
 import Footer from "../footer/Footer";
-import Navigation from "../navigation/SimpleNav";
+import Navigation from "../navigation/Navigation";
 
 const Main = ({ children }) => {
   return (

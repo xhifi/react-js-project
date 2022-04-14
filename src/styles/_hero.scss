@@ -1,0 +1,35 @@
+.hero-container {
+  @extend .container, .col-11, .py-5, .px-0;
+  .row {
+    @extend .align-items-center;
+    .col {
+      a {
+        @extend .btn, .btn-outline-success, .btn-lg;
+      }
+      &:nth-child(1) {
+        @extend .col-8;
+      }
+      &:nth-last-child(1) {
+        @extend .col-4;
+        img {
+          @extend .rounded-circle;
+        }
+      }
+    }
+  }
+}
+
+.container-img-none {
+  @extend .px-0, .bg-success, .text-light;
+  .hero-container {
+    .row {
+      @extend .align-items-center, .justify-content-center;
+      .col {
+        @extend .p-0, .text-center, .col-12, .col-md-6;
+        a {
+          @extend .btn, .btn-lg, .btn-outline-light;
+        }
+      }
+    }
+  }
+}

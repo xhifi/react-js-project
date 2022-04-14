@@ -1,5 +1,5 @@
 // Just show the top Navigation
-import Navigation from "../navigation/SimpleNav";
+import { Navigation } from "../Components";
 
 const Shop = ({ children }) => {
   return (

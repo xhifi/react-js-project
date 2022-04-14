@@ -1,8 +1,10 @@
 import MainLayout from "../../components/layouts/Main";
+import { Hero } from "../../components/Components";
+
 const index = () => {
   return (
     <MainLayout>
-      <div>This is the Blog Page</div>
+      <Hero heading="Read Our Blog" description="We post routine updates on our application as well as our thoughts on ReactJs and all the relevant libraries." />
     </MainLayout>
   );
 };

@@ -1,9 +1,24 @@
-.navigation {
-  @extend .bg-info;
-  li {
-    @extend .d-inline, .me-2;
-    a {
-      @extend .text-decoration-none, .h4;
+.navigation-container {
+  @extend .px-0, .py-2, .shadow;
+  .container {
+    @extend .d-flex, .align-items-center, .justify-content-between;
+    span {
+      @extend .h3;
+    }
+    nav {
+      ul {
+        @extend .m-0, .p-0, .d-flex, .align-items-center, .list-unstyled;
+        li {
+          a {
+            @extend .nav-link, .text-dark, .rounded;
+            &:hover {
+              background-color: $success;
+              color: white !important;
+              @extend .rounded;
+            }
+          }
+        }
+      }
     }
   }
 }

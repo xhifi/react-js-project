@@ -1,4 +1,4 @@
-import { ShopLayout, Navigation } from "../../components/Components";
+import { ShopLayout } from "../../components/Components";
 
 const index = () => {
   return (
