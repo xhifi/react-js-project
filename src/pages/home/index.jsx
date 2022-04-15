@@ -1,5 +1,6 @@
 import MainLayout from "../../components/layouts/Main";
-import { Hero } from "../../components/Components";
+import { Hero, CardsLayout, Sprite } from "../../components/Components";
+
 const index = () => {
   return (
     <MainLayout>
@@ -10,6 +11,17 @@ const index = () => {
         btnLink="/about"
         img="https://bityl.co/Bn3D"
       />
+      <CardsLayout>
+        {[...Array(9)].map((item, index) => {
+          return (
+            <Sprite
+              heading="Card Heading"
+              description="This happens to be a very very looooong description for the following card. Please focus on the description as it is very very long."
+              img="https://bityl.co/Bo2D"
+            />
+          );
+        })}
+      </CardsLayout>
     </MainLayout>
   );
 };

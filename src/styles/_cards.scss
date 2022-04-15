@@ -1,0 +1,33 @@
+.sprite-card-col {
+  @extend .col, .mb-5;
+  .card {
+    @extend .border-0, .h-100;
+    .sprite-image-holder {
+      @extend .d-flex, .justify-content-center, .align-items-center;
+
+      .sprite-image {
+        @extend .shadow;
+        width: 175px;
+        aspect-ratio: 1/1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin: center;
+      }
+    }
+    .card-body {
+      @extend .text-center;
+      p {
+        @extend .mb-0;
+      }
+      a {
+        @extend .btn, .btn-success, .btn-sm, .mt-2;
+      }
+    }
+    .card-footer {
+      p {
+        @extend .mb-0;
+      }
+    }
+  }
+}
